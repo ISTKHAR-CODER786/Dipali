@@ -33,7 +33,7 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Error in downloading images: {e}")
 
-    msg = await message.reply("maya Scrapping images...")
+    msg = await message.reply("Dipa Scrapping images...")
 
     count = 0
     for img in lst:
